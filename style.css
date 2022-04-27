@@ -18,6 +18,10 @@ a:hover {
   cursor: pointer;
 }
 
+.mailto {
+  text-decoration: underline;
+}
+
 blockquote {
   border-style: none;
 }
@@ -270,7 +274,7 @@ blockquote {
 
 .heading-services {
   font-size: 20px;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 500;
 }
 
@@ -281,10 +285,7 @@ blockquote {
 .voffset-lg {
   margin-top: 80px;
 }
-.heading-contact {
-  justify-content: center;
-  display: flex;
-}
+
 .row-no-gutters {
   margin-right: 0;
   margin-left: 0;
